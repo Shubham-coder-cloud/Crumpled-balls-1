@@ -4,7 +4,8 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
-var paper,D1,D2,D3;
+var paper;
+var D1,D2,D3;
 
 function preload()
 {
@@ -26,7 +27,7 @@ function setup()
     D3=new Dustbin(700,615,20,150);
 
    
-	paper= new Paper (100,600,50);
+	paper = new Paper (100,600);
 
 	Engine.run(engine);
   
