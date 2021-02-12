@@ -4,6 +4,8 @@ const World = Matter.World;
 const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 
+var paper,D1,D2,D3;
+
 function preload()
 {
  	
